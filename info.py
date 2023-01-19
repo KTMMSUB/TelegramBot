@@ -41,9 +41,9 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['id27436380'])
+API_HASH = environ['5b7b6071e790f6c28f5e05d500e1f6c4']
+BOT_TOKEN = environ['5808389519:AAGrJpgDLd6dwN7ksc5YarbBk6Ys6GpQ7eo']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -75,8 +75,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "doctorstrange")
+DATABASE_URI = environ.get('mongodb+srv://KTfilter:f@ktfilter.zgvr4yl.mongodb.net/?retryWrites=true&w=majority', "")
+DATABASE_NAME = environ.get('KTfilter', "doctorstrange")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "")
 
