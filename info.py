@@ -41,9 +41,9 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['id27436380'])
+API_ID = int(environ['27436380'])
 API_HASH = environ['5b7b6071e790f6c28f5e05d500e1f6c4']
-BOT_TOKEN = environ['5808389519:AAGrJpgDLd6dwN7ksc5YarbBk6Ys6GpQ7eo']
+BOT_TOKEN = environ['5982188831:AAEHJdJcR2LD9fgGITNZB1tUuDksZ0k7TKI']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -87,9 +87,9 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/wudixh1")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/wudixh")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/wudixh2")
+S_GROUP = environ.get('S_GROUP',"https://t.me/ktmmsubmoviecollections")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/ktmmsubmoviecollections")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/ktmmsubmoviecollections")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠 𝑇𝑜 Goutham SER 💖')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
